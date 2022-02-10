@@ -3,6 +3,7 @@ package hamming
 import (
 	"errors"
 )
+
 // Distance check dna length and compare differences between them
 func Distance(a, b string) (int, error) {
 	switch {
